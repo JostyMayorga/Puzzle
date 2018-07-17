@@ -1,0 +1,51 @@
+.menu-bottom{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin-bottom: 0 !important;
+}
+#elementos div{
+    width : 150px;
+    height : 150px;
+    position: absolute;
+    z-index: 1000;
+}
+#elementos {
+    height: 50vh;
+    position: relative;
+}
+
+#tablero div{
+    width : 150px;
+    height : 150px;
+    background : black;
+    position: absolute;
+
+}
+#tablero {
+    height: 50vh;
+    position: relative;
+}
+
+.triangulo{
+    position: absolute;
+}
+.rectangulo{
+    position: absolute;
+}
+.cuadrado{
+    position: absolute;
+}
+
+@media (min-width: 576px) {
+#elementos {
+    height:50vh;
+    position: relative;
+}
+#tablero {
+    height:50vh;
+    background: red;
+    position: relative;
+    background-image: url("../img/fondo3.png");
+}
+}
